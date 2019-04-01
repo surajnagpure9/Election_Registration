@@ -1,0 +1,59 @@
+<html>
+
+<head>
+<style>
+input[type=email],input[type=password],input[type=submit],input[type=text],input[type=button]
+		{
+  width: 70%;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  /*box-sizing: border-box;*/
+}
+</style>
+<script type="text/javascript">
+  
+  function login()
+  {
+
+  
+ var z=document.getElementById("demo").value;
+ var y=document.getElementById("pass").value;
+ 
+  if (z=="surajnagpure9@gmail.com" &&  y=="1234" || z=="surajnagpure1@gmail.com" && y=="12345" || z=="surajnagpure3@gmail.com" && y=="123456" || z=="surajnagpure2@gmail.com" && y=="1234567" || z=="surajnagpure4@gmail.com" && y=="12345678")
+  {
+ 
+	open("VERIFY.html")	
+  }
+				else{
+				alert("you are not admin user"); 
+				}
+  }
+  
+ </script>
+</head>
+<body>
+  
+  
+  <div id="one" ><img src="one2.jpg" height="60%"/>
+  </div>
+  
+  		
+		<marquee style="background-color:DodgerBlue; color:white; opacity:0.8;"><i>The Schedule for General Elections to Lok Sabha and Legislative Assemblies in Andhra Pradesh, Arunachal Pradesh, Odisha & Sikkim, 2019 has been announced.</i> </marquee>
+  
+ 
+<div style="position:absolute; left:500px; width:450px;">
+<h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAdmin Page<h2>
+  <form>
+	Username<input type="email" id="demo" required/><br>
+	Password <input type="password" id="pass" required/><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<input type="button" onclick="login()"  value="LOGIN"/><br>
+			
+		</div>			
+ </form> 
+ 
+  </body>
+  
+  
+  </html>

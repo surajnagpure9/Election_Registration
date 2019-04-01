@@ -1,0 +1,316 @@
+<html>
+<head>
+<style>
+table,th,td{
+border-collapse:collapse;
+empty-cells: hide;
+padding:10px;
+
+}
+th,td{
+border-bottom:1px solid #ddd;
+}
+input[type=text]{
+
+ 
+  padding:10px;
+ 
+}
+
+#addd{
+
+ padding:20px;
+}
+#p{
+
+ padding:20px;
+}
+
+#d {
+ padding:3px 30px;
+}
+
+#s {
+ padding:3px 10px;
+}
+
+#m {
+ padding:3px 10px;
+}
+#z {
+width:20px;
+padding:2px 0px;
+}
+
+
+#f{
+ width: 40px;
+padding:3px;
+}
+
+
+</style>
+<script>
+function suraj()
+
+{
+ var y=document.getElementById("first").value;
+ var mid=document.getElementById("second").value;
+ var last=document.getElementById("third").value;
+  var adddd=document.getElementById("addd").value;
+  var perm=document.getElementById("p").value;
+  var fat=document.getElementById("father").value;
+	if (y=="")
+  {
+ alert("Please fill all fields"); 
+	
+  }
+  	else if (last=="")
+  {
+ alert("Please fill all fields"); 
+	
+  }
+  else if (fat=="")
+  {
+ alert("Please fill all fields"); 
+	
+  }
+				else
+				{
+				open("thankminor.html")	
+				}
+  }
+
+
+</script>
+
+
+</head>
+<body >
+
+
+<div id="one" ><img src="voter.jpg" width="100%" height="20%"/>
+  </div>
+<div style="position:absolute; 
+			left:500px;
+			opacity:0.8;
+			top:40px;
+			font-family:Lucida Calligraphy;
+			font-size:23px;">
+<h2>Voter Registration Form</h2>
+</div>
+
+
+<form align="center">
+<table border="1" align="center">
+
+
+
+
+
+<tr>
+<th >1</th>
+<th>First Name<br><input id="first" type="text" required/></th>
+<th>Middle Name<br><input id ="second"type="text" required /></th>
+<th>Last Name<br><input id="third" type="text" required/></th>
+
+</tr>
+
+
+<tr>
+<th >2</th>
+<th >Local Address<br><input id="addd" type="text" required/></th>
+<th>Country:<select id="d"><option selected>India </option>
+
+</select>
+<br><br>
+State:
+<select id="s"><option selected>Maharashtra</option>
+<option>Andhra Pradesh</option>
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Chhattisgarh</option>
+<option>Goa</option>
+<option>Gujarat</option>
+<option>Haryana</option>
+<option>Himachal Pradesh</option>
+<option>Jammu and Kashmir</option>
+<option>Jharkhand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Manipur</option>
+<option>Meghalaya</option>
+<option>Mizoram</option>
+<option>Nagaland</option>
+<option>Odisha</option>
+<option>Punjab</option>
+<option>Rajasthan</option>
+<option>Sikkim</option>
+<option>Tamil Nadu</option>
+<option>Telangana</option>
+<option>Uttar Pradesh</option>
+<option>Uttarakhand</option>
+<option>West Bangal</option>
+
+</select>
+</th>
+<th>City:
+<select id="m"><option selected>Ahmednagar</option>
+<option>Amravati</option>
+<option>Akola</option>
+<option>Nagpur</option>
+<option>Kokan</option>
+<option>Pune</option>
+<option>Aurangabad</option>
+<option>Beed</option>
+<option>Chandrapur</option>
+<option>Dhule</option>
+<option>Hingoli</option>
+<option>Jalgaon</option>
+<option>Jalna</option>
+</select>
+<br>
+<br>
+Pincode :<br>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9" required/>
+<input type="number" min="1" max="9" required/>
+
+</th>
+</tr>
+<tr>
+<th >3</th>
+<th >Permenant Address<br><input id="p" type="text" required/></th>
+<th>Country:<select id="d"><option selected>India </option>
+
+</select>
+<br><br>
+State:
+<select id="s"><option selected>Maharashtra</option>
+<option>Andhra Pradesh</option>
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Chhattisgarh</option>
+<option>Goa</option>
+<option>Gujarat</option>
+<option>Haryana</option>
+<option>Himachal Pradesh</option>
+<option>Jammu and Kashmir</option>
+<option>Jharkhand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Manipur</option>
+<option>Meghalaya</option>
+<option>Mizoram</option>
+<option>Nagaland</option>
+<option>Odisha</option>
+<option>Punjab</option>
+<option>Rajasthan</option>
+<option>Sikkim</option>
+<option>Tamil Nadu</option>
+<option>Telangana</option>
+<option>Uttar Pradesh</option>
+<option>Uttarakhand</option>
+<option>West Bangal</option>
+
+</select>
+</th>
+<th>City:
+<select id="m"><option selected>Ahmednagar</option>
+<option>Amravati</option>
+<option>Akola</option>
+<option>Nagpur</option>
+<option>Kokan</option>
+<option>Pune</option>
+<option>Aurangabad</option>
+<option>Beed</option>
+<option>Chandrapur</option>
+<option>Dhule</option>
+<option>Hingoli</option>
+<option>Jalgaon</option>
+<option>Jalna</option>
+</select>
+<br>
+<br>
+Pincode :<br>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9" required/>
+<input type="number" min="1" max="9" required/>
+
+</th>
+</tr>
+
+
+<tr>
+<th>4</th>
+<th>Are you Citizen of India?
+</th>
+<th><input type="radio" name="nder"/>Yes
+<input type="radio" name="nder"/>No</th>
+<th>Gender:&nbsp &nbsp &nbsp Male<input type="radio" name="sur"/>
+Female<input type="radio" name="sur"/></th>
+</tr>
+
+<tr>
+<th>5</th>
+<th >Adhar Number:</th>
+<th colspan="2">
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9" required/>
+<input type="number" min="1" max="9" required/>
+<input type="number" min="1" max="9" required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9"  required/>
+<input type="number" min="1" max="9" required/>
+<input type="number" min="1" max="9" required/>
+</th>
+
+</tr>
+
+<tr>
+<th>6</th>
+<th>Birth Date:</th><th><input type="date" name="age" required/></th>
+<th>Age:<input id="f" type="text"/></th>
+
+
+
+</tr>
+
+<tr>
+<th>7</th>
+<th>Gender:<br>Male<input type="radio" name="sur" />
+Female<input type="radio" name="sur"/></th>
+<th>Mother's Name<br><input type="text" required/></th>
+<th>Father's Name<br><input  id="father" type="text" required/></th>
+
+</tr>
+
+
+<tr>
+<th>8</th>
+<th>Upload Documents:</th>
+<th>Photo:<input type="file" accept="image" /></th>
+<th>Signature:<input type="file" accept="image"/></th>
+
+</tr>
+</table>
+<input type="checkbox" name="terms" id="terms" required/>  I Agree Terms & Coditions
+<br><br>
+<input type="submit" name="submit" value="SUBMIT" onclick="suraj()"/>
+</form>
+
+</body>
+</html>
